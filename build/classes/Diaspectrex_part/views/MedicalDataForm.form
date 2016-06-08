@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="&#x412;&#x432;&#x43e;&#x434; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x445;"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosed" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="onClosed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="Z1_label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Z2_label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Z3_label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Z4_label" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="ClearButton" linkSize="2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="SaveButton" linkSize="2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Z1_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Z2_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Z3_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Z4_label" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SaveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ClearButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#x412;&#x432;&#x435;&#x434;&#x438;&#x442;&#x435; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x438;&#x44f; &#x434;&#x43b;&#x44f; &#x43f;&#x440;&#x43e;&#x432;&#x435;&#x434;&#x435;&#x43d;&#x438;&#x44f; &#x43a;&#x43b;&#x430;&#x441;&#x441;&#x438;&#x444;&#x438;&#x43a;&#x430;&#x446;&#x438;&#x438;:">
+              <Font PropertyName="font" name="Buxton Sketch" size="16" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="Z2" min="-2" max="-2" attributes="0"/>
+                      <Component id="Z3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Z4" min="-2" max="-2" attributes="0"/>
+                      <Component id="Z1" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="Data9" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="Data10" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Data11" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Data12" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Data13" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Data14" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="Data1" linkSize="1" min="-2" pref="48" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="Data2" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Data3" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Data4" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Data5" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Data6" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="Data17" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Data18" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Data19" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Data20" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="Data25" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Data26" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Data27" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Data28" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="Data21" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Data22" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="Data29" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Data30" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="Data31" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Data32" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="Data15" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Data16" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="Data23" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Data24" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="Data7" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Data8" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Data1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Z1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Data10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data16" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Z2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data14" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data15" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Data17" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data18" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data19" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data21" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data22" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Z3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data20" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data23" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Data24" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Z4" alignment="1" min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Data25" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Data27" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Data26" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Data28" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Data29" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Data30" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Data31" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Data32" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="Data1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data10">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data11">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data12">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data13">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data14">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data15">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data16">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data17">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data18">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data19">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data20">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data21">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data22">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data23">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data24">
+        </Component>
+        <Component class="javax.swing.JLabel" name="Z1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Buxton Sketch" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Z1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Z2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Buxton Sketch" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Z2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Z3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Buxton Sketch" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Z3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data25">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data26">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data27">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data28">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data29">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data30">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data31">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Data32">
+        </Component>
+        <Component class="javax.swing.JLabel" name="Z4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Buxton Sketch" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Z4"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="Z1_label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Buxton Sketch" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Z1: 0-70"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Z2_label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Buxton Sketch" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Z2: 70-400"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Z3_label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Buxton Sketch" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Z3: 400-2000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Z4_label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Buxton Sketch" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Z4: &gt;2000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="SaveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x421;&#x43e;&#x445;&#x440;&#x430;&#x43d;&#x438;&#x442;&#x44c;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SaveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ClearButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x41e;&#x447;&#x438;&#x441;&#x442;&#x438;&#x442;&#x44c;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ClearButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
